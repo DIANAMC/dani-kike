@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 30% 97%;
+    --foreground: 215 30% 15%;
+
+    --card: 210 25% 99%;
+    --card-foreground: 215 30% 15%;
+
+    --popover: 210 25% 99%;
+    --popover-foreground: 215 30% 15%;
+
+    --primary: 215 55% 32%;
+    --primary-foreground: 210 30% 97%;
+
+    --secondary: 210 25% 92%;
+    --secondary-foreground: 215 30% 20%;
+
+    --muted: 210 20% 93%;
+    --muted-foreground: 215 15% 48%;
+
+    --accent: 42 65% 58%;
+    --accent-foreground: 215 30% 12%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 210 20% 88%;
+    --input: 210 20% 88%;
+    --ring: 215 55% 32%;
+
+    --radius: 0.5rem;
+
+    --wedding-cream: 210 30% 97%;
+    --wedding-sage: 215 55% 32%;
+    --wedding-sage-light: 215 30% 93%;
+    --wedding-gold: 42 65% 58%;
+    --wedding-gold-light: 42 50% 90%;
+    --wedding-blush: 215 25% 94%;
+    --wedding-charcoal: 215 35% 14%;
+
+    --font-display: 'Cormorant Garamond', serif;
+    --font-body: 'Montserrat', sans-serif;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer components {
+  .wedding-section {
+    @apply py-20 md:py-28 px-6;
+  }
+
+  .wedding-heading {
+    font-family: var(--font-display);
+    @apply text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight;
+  }
+
+  .wedding-subheading {
+    font-family: var(--font-display);
+    @apply text-2xl md:text-3xl font-normal italic;
+  }
+
+  .wedding-body {
+    font-family: var(--font-body);
+    @apply text-base md:text-lg leading-relaxed font-light;
+  }
+
+  .wedding-divider {
+    @apply w-16 h-px bg-accent mx-auto my-8;
+  }
+}
