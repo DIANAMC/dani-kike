@@ -28,7 +28,7 @@ const CeremonySection = () => {
             viewport={{ once: true }}
             className="wedding-heading text-foreground mb-4"
           >
-            Ceremonia
+            Ceremonia & recepción
           </motion.h2>
           <div className="wedding-divider" />
         </div>
