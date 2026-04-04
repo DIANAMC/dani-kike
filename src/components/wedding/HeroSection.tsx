@@ -31,7 +31,7 @@ const HeroSection = () => {
           transition={{ duration: 1, delay: 0.5 }}
           className="font-display text-5xl md:text-7xl lg:text-8xl font-medium text-primary-foreground mb-4"
         >
-          Dani & Kike
+          Fran & Kike
         </motion.h1>
 
         <motion.div
