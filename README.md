@@ -1,4 +1,4 @@
-# Dani & Kike — Wedding Site
+# Fran & Kike — Wedding Site
 
 A wedding invitation website built with React, Vite, TypeScript and Tailwind CSS.
 
