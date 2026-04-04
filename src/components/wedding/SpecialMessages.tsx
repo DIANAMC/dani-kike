@@ -3,7 +3,7 @@ import { Heart } from "lucide-react";
 
 const messages = [
   {
-    from: "Dani",
+    from: "Fran",
     text: "Desde el día en que te conocí, supe que mi vida cambiaría para siempre. Gracias por ser mi mejor amigo, mi confidente y mi compañero de aventuras. No puedo esperar para comenzar este nuevo capítulo juntos. Te amo infinitamente. 💕",
   },
   {

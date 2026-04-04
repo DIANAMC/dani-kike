@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import heroImage from "@/assets/hero-wedding.jpg";
+import CountdownTimer from "./CountdownTimer";
 
 const HeroSection = () => {
   return (
@@ -31,7 +32,7 @@ const HeroSection = () => {
           transition={{ duration: 1, delay: 0.5 }}
           className="font-display text-5xl md:text-7xl lg:text-8xl font-medium text-primary-foreground mb-4"
         >
-          Dani & Kike
+          Fran & Kike
         </motion.h1>
 
         <motion.div
@@ -58,6 +59,8 @@ const HeroSection = () => {
         >
           Iglesia El Lugar de Su Presencia - Sede Campestre - Cajicá
         </motion.p>
+
+        <CountdownTimer />
       </div>
 
       <motion.div

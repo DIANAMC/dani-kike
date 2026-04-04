@@ -4,7 +4,7 @@ import venueImage from "@/assets/venue.jpg";
 
 const details = [
   { icon: CalendarDays, label: "Fecha", value: "21 de agosto, 2026" },
-  { icon: Clock, label: "Hora", value: "12:00 PM" },
+  { icon: Clock, label: "Hora", value: "10:00 AM" },
   { icon: Church, label: "Ceremonia", value: "Cajicá - 3.5 Km. Adelante de Centro Chía vía, Cajicá - Chía, Camino de la Mejorana" },
   
 ];
@@ -28,7 +28,7 @@ const CeremonySection = () => {
             viewport={{ once: true }}
             className="wedding-heading text-foreground mb-4"
           >
-            Ceremonia
+            Ceremonia & recepción
           </motion.h2>
           <div className="wedding-divider" />
         </div>
