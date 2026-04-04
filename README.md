@@ -15,7 +15,7 @@ A wedding invitation website built with React, Vite, TypeScript and Tailwind CSS
 Cada vez que hagas `git push` a `main`, el workflow `.github/workflows/deploy.yml` se ejecutará automáticamente y publicará el sitio en:
 
 ```
-https://franykike.com/
+http://franykike.com/
 ```
 
 ### 3. Desarrollo local
