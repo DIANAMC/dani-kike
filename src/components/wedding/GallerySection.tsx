@@ -8,8 +8,8 @@ import prewedding3Webp from "@/assets/prewedding-3.webp";
 
 const defaultPhotos = [
   { src: prewedding1Webp, alt: "Sesión preboda en el parque", w: 800, h: 1024, fallback: prewedding1 },
-  { src: prewedding2Webp, alt: "Pareja riendo en viñedo", w: 1024, h: 800, fallback: prewedding2 },
   { src: prewedding3Webp, alt: "Retrato romántico en campo de flores", w: 800, h: 1024, fallback: prewedding3 },
+  { src: prewedding2Webp, alt: "Pareja riendo en viñedo", w: 1024, h: 800, fallback: prewedding2 },
 ];
 
 const defaultPhotosAsUrls = defaultPhotos;
@@ -44,14 +44,7 @@ const GallerySection = () => {
         >
           Nuestra Historia
         </motion.p>
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="wedding-heading text-foreground mb-4"
-        >
-          Preboda
-        </motion.h2>
+
         <div className="wedding-divider" />
 
         <motion.p
