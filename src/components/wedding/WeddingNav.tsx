@@ -6,6 +6,7 @@ const links = [
   { href: "#galeria", label: "Galería" },
   { href: "#ceremonia", label: "Ceremonia" },
   { href: "#mensajes", label: "Mensajes" },
+  { href: "#regalos", label: "Regalos" },
   { href: "#confirmar", label: "Confirmar" },
 ];
 
