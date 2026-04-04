@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import heroImage from "@/assets/hero-wedding.jpg";
+import CountdownTimer from "./CountdownTimer";
 
 const HeroSection = () => {
   return (
@@ -58,6 +59,8 @@ const HeroSection = () => {
         >
           Iglesia El Lugar de Su Presencia - Sede Campestre - Cajicá
         </motion.p>
+
+        <CountdownTimer />
       </div>
 
       <motion.div
