@@ -11,6 +11,8 @@ on:
 
 jobs:
   build:
+    env:
+      VITE_BASE_URL: /dani-kike/
     runs-on: ubuntu-latest
 
     steps:
