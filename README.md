@@ -15,8 +15,10 @@ A wedding invitation website built with React, Vite, TypeScript and Tailwind CSS
 Cada vez que hagas `git push` a `main`, el workflow `.github/workflows/deploy.yml` se ejecutará automáticamente y publicará el sitio en:
 
 ```
-http://franykike.com/
+https://dianamc.github.io/dani-kike/
 ```
+
+> El build usa `VITE_BASE_URL=/dani-kike/` para que los assets funcionen en la URL asignada de GitHub Pages. Si luego apuntas a un dominio personalizado (por ejemplo `franykike.com`), cambia `VITE_BASE_URL` a `/` en los workflows antes de desplegar y asegúrate de tener el DNS y el CNAME configurados.
 
 ### 3. Desarrollo local
 
