@@ -24,7 +24,7 @@ concurrency:
 jobs:
   build-and-deploy:
     env:
-      VITE_BASE_URL: /dani-kike/
+      VITE_BASE_URL: /
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
